@@ -167,7 +167,7 @@ function provision_puppet() {
     prep_master
   else
     install_puppetagent
-    sleep 30
+    sleep 135 
     /opt/puppet/bin/puppet agent -t
   fi
 
